@@ -5,13 +5,278 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Muratovnik's Pink</title>
+  <link rel="stylesheet" href="styles/style.scss">
+  <link rel="stylesheet" href="styles/fonts/OpenSans-Bold.ttf">
+  <link rel="stylesheet" href="styles/fonts/OpenSans-Regular.ttf">
+  <link rel="stylesheet" href="styles/fonts/OpenSans-ExtraBold.ttf">
+  <link rel="stylesheet" href="styles/fonts/OpenSans-Light.ttf">
 </head>
 
 <body>
+  <header class="main-header">
+    <section class="main-hedaer__menu">
+      <section class="main-header__top-menu">
+        <section class="pink-logo main-header__logo">
+          <svg class="pink-logo__mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="22" viewBox="0 0 75 22">
+            <image id="logotype-white-mobile.svg" width="75" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAWCAYAAACIXmHDAAACr0lEQVRYhdVZi3HbMAwFeh3AG9TdIJmg8QSNJ6g9Qe0J0kygdAKrE8QbOBvInSDqBPEGrwcbdCFaoiSKytXvLnfWhyDxCDwCEQHYoRsKAM8AFgAmFIA8B/CmVu+b3lSbglcA05DNhvFTM89d7DsB+zcVPzoS5eOthYQ7M+BH4D2Lom0TYuaR+13WUjPOEnUc+9E8L4noV8PYT0R0o38CcUqibMnMeR8HAxDbGREtE9mLhhBFRDv1U7AnoqcKWcwcZF5TRRxyUbUBIONeEq1TUvxP2zrGRANRM2Y+fOgzLzMLMXMistH0PcHaS/P7IZTiY6KGqK0jSi56kWWwNr9TOFZ66bfRhb8baojKJTAcURRLlho4p15fYW6wmZuIdZo42G4XNBB1oZ2xkTUKdIFuE6bqwKjoStRQss5pYkM1AeZGw+T43oxFlmpjJ6IoliwAKzNBqpPwCCVeCHMbICfkIuUcdPJBbD4bPx5DRFEMWUpUZm499l5pC5h5XyP4varvEJQoP2K/tmmkrbMmLQuSZ99USxzyhDVWBcy8BSAb8aD3RfBvpXwZYreGqFJ9ctp1Gxoci1Ab07fdaRRy0aymliii3SlQxaKmrWnUyL5pWOrx/vkdq+y1VtGkuz9E8N2hJHooUZprys/NOwuVmgvYNNx7xaaPcmgKxEAEH8CMiF5VjO8BZMwcWmsIB63K3QbIHC/S55qNyAAc/L7XknUYS3+GwhBWqKkVgN9em9QFF0Q5CDEAvkhk6S0hbG/f/a+K0hBqTsjM1nod8bOOKActHbZ6KVG8s/9nuxqy6F9L9KSXE6+ESYWl0chK23VVZNGJsHXqQtiz7xfF50Pl6shSzM3uJ4ceZDNj93ioXCVZuvtLs/tjzOFr5Mp+NEhWN0V8sIiaW2yP+cFCx5+KWqD4Cwkc6Iy9EZq9AAAAAElFTkSuQmCC"/>
+          </svg>
+        </section>
+        <button class="main-header-burger">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="24" viewBox="0 0 50 24">
+            <image id="menu-burger.svg" width="50" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAYCAYAAAC4CK7hAAAAXElEQVRYhe3WwQ2AAAgDwOIEjuTobiQb1OAEakwspPfg3b5KkDwArOgtqwibl7gsAhk+UUVyQI+MuiS3/7O8FxF71+xm9pCXXY2XXcyEDmZ2x5g33suuxssuBcgTTc4obdrzPnYAAAAASUVORK5CYII="/>
+          </svg>
+        </button>
+      </section>
+      <nav class="main-navigation">
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a href="" class="main-navigation__link">
+              Главная
+            </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="" class="main-navigation__link">
+              Фотографии
+            </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="" class="main-navigation__link">
+              Конкурс
+            </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="" class="main-navigation__link">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
 
+    <section class="preview main-header__preview">
+      <section class="preview__smartphone">
+        <img src="img/Header/iphone-5-in-hand.png" alt="" class="preview__hand">
+        <img src="img/Header/Layer 155.png" alt="" class="preview__window">
+      </section>
+    </section>
+
+    <section class="downland-app">
+      <button class="downland-app__button button">Скачать приложение</button>
+      <section class="downland-app__os">
+        <ul class="downland-app__os-list">
+          <li class="downland-app__item">
+            <svg class="downland-app__apple-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="56" viewBox="0 0 47 56">
+              <image id="apple-logo.svg" width="47" height="56" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA4CAYAAABt9KGPAAACiUlEQVRoge2Zi23CMBCGfVEHoBO03QAmKNmAEegEbSeATkA7AWwATACdADYgnSB0gqsOziEktnEgii9SPylCIsj5Y873VCFBxCEizvFEP6ggH1h0imXkikfEDiKuDKI1HQEyyyBi17LbmlSa5gO84zuHcGIqQGqZwqG0MZCmm4QPPITvBEgtg4gbD/HyvAwf0ktMBEgtg4jjVh5SdRTv8ulyhSu7eHKZtXiWuzoW8WCvlForpZYAMKtrUajyY0R8VErRpb0DidrSBQD7K9bq83oP/PUPf64BYF1lPetDyCN4RMg5J1zW/ITXevN0n3rN6m6UQ/rE8yF5KH+Z6ojJgoupb1Xo7HR9hXc9drppaFOGl4Tbcm0pZC8ABeH012wq21jzxHSgo5xwOmirFgjf86Wi3JcU8WRWMifILT8BAH0ezYbdkfRd37K5ZPFE7/xrOE1eJEXhBLCty6wfT8SmiEs7L6/8OmdmSxVI/HNAYT582X5D4v3CbhgS7VnaKH7huhm5bgrgt83infyLD4V08U43ThEWm9NyFfe2+jjiql4y1gwg0rmxYEYu8d/CxVMBPzbdiDhPls7IVHzrYiRtQRVFvOQ7btpVSj+0mmnehLT4ZVBJ1RhxT2mozYZMZtcS08k47DwHAWf6KZBF1nTirq3MwZaZOMttACBp0cFNzjpmzEcwOdUw6+T2tGSy5lhpMsK2vxHsebIeTimfZ9uXaj6f+R6OdSbFf4+kyTRtai+f27vESwtcvWIPx1oG8hvGjci6zLur+WSFxzwhuW1SfsMLpDzJu3Y4V8+I33PQdjbGNKzR5/Goz8DOWD3d8gJUkpG44sNpd2k47HW4ecZrms3ql6dY40Yp9QcXxXEmrW7vKQAAAABJRU5ErkJggg=="/>
+            </svg>
+          </li>
+          <li class="downland-app__item">
+            <svg class="downland-app__android-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="47" viewBox="0 0 43 47">
+              <image id="android-logo.svg" width="43" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAvCAYAAAB6zDPWAAACSElEQVRYhe2Zz1EbMRSHf/ZQwFJBTAfhaF1iKgDfdbArAFcAVACpwBx8j6kAc7GOoQNMBWwHyTzmKd55I63eJtaGg76ZPXj/SJ/W0pP2aYAEq+14BODJGneivJcOz84at1M89wrgLHVvUpYLWwJ4s8bdiPMVgAsA5wAmAKrA4zWADYBHAGtrXC3KoDK/WOPmKQ+tLEn89K3n39cAZhHBGCS6BrAgaf+vATiVjfhrWRa+AvANwDOLdpGUkNitL88ad695SC3Lwu//KCmprXHH2puH2htX2/FdQPSBDw0v/Dabf3fF5arQ9tkJ960mG2vcGfYDcJYo5pj7KQ3IH+IajYVNyuNI2ahl4NyIBxo4EqSY8OD6Gik/GRo1cTb0JnIwtcat28rV9NnzHkRV9WhkR4p7DkGyHo2spj8egr7q6QfNAOutxanwpQldMr7mpPXlfcjygmLmFxqaZV1u2OmCZ80HchqstuOZCPokPPcxb7Ud/+pL0Bo3wD62L8X0PqdoIOfmKnCub0LrkLthZBXVV2yNEaq/Uq+6PgNFNhdFNhdFNhdFNhdFNhdFNhdDTkdKVImyjITq35DslPNVNR/31rjF/zTl+kl4x07kN9V8MD719Jn8J3cWQ9NnFyLzl4Oa62lFm0WkZNpl4wNOsuMjhtxr8PhM+Hdr3MtBZBvSsS5xK/cbxHM3nC2XJP/6JiXO5qLI5qLI5qKr7KETdp3K6yr7GDnfunHRcj1WXpBOspxZpI03j884ts4+fJ02kpvTNk0kqUbuAfAbybS3FdGC4nAAAAAASUVORK5CYII="/>
+            </svg>
+          </li>
+          <li class="downland-app__item">
+            <svg class="downland-app__windows-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="41" viewBox="0 0 44 41">
+              <image id="microsoft-logo.svg" width="44" height="41" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAApCAYAAABOScuyAAAAkklEQVRYhe3UoQ3CYBRF4fsTBqjBYtAM0R1gHiDpNjACkg3QNUxQi4KUhA3eEU3ON8DNES+vTYfdJ8W629jmxeHRl2+vqgdpBtMMphlMM5hmMM1gmsE0g2mLC14nuYD75PYytP31da4ufR63v833fVO+PZ/EqXo0yT+0fNsvQTOYZjDNYJrBNINpBtMMphmMSvIFSz0Ppf61ISYAAAAASUVORK5CYII="/>
+            </svg>
+          </li>
+        </ul>
+        <p class="downland-app__os-text">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </section>
+    </section>
+  </header>
+
+  <main>
+    <section class="advantages">
+      <p class="advantages__headline">
+        <span>Устали от серости мегаполиса?</span>
+        <span>Нам есть, что вам предложить!</span>
+      </p>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h2 class="advantages__text-headline">Поднимает настроение</h2>
+          <p class="advantages__text">
+            Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h2 class="advantages__text-headline">Меняет мир вокруг</h2>
+          <p class="advantages__text">
+            Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h2 class="advantages__text-headline">Заводит новых друзей</h2>
+          <p class="advantages__text">
+            Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+          </p>
+        </li>
+      </ul>
+      <div class="advantages__prewiev">
+        <img class="advantages__phone" src="img/MainContent/Iphone.png" alt="">
+        <img class="advantages__screen" src="img/MainContent/Iphone-screen-smile.png" alt="">
+      </div>
+    </section>
+
+    <section class="user-reviews">
+      <ul class="user-reviews__list">
+        <li class="user-reviews__item">
+          <p class="user-reviews__headline">Николай Петров</p>
+          <p class="user-rewiews-text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+        </li>
+        <li class="user-reviews__item">
+          <p class="user-reviews__headline"></p>
+          <p class="user-rewiews-text"></p>
+        </li>
+        <li class="user-reviews__item">
+          <p class="user-reviews__headline"></p>
+          <p class="user-rewiews-text"></p>
+        </li>
+      </ul>
+      <section class="slider-switchers user-reviews__slider-switchers">
+        <button class="slider-switchers__item"></button>
+        <button class="slider-switchers__item"></button>
+        <button class="slider-switchers__item"></button>
+      </section>
+    </section>
+
+
+    <section class="functions">
+      <table class="functions__table">
+        <tr>
+          <td>
+          </td>
+          <td>
+            <p class="futctions__cost-headline">База</p>
+            <p class="functions__cost-price">1,99 USD</p>
+          </td>
+          <td>
+            <p class="futctions__cost-headline">Стандарт</p>
+            <p class="functions__cost-price">3,99 USD</p>
+          </td>
+          <td>
+            <p class="futctions__cost-headline">Анлим</p>
+            <p class="functions__cost-price">9,99 USD</p>
+          </td>
+        </tr>
+        <tr>
+          <th>Розовый фильтр</th>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>Смайлики</th>
+          <td>
+            <div class="no">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="26" viewBox="0 0 27 26">
+                <image id="no.svg" width="27" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAYAAABGiCfwAAABM0lEQVRIia3W0Q2CMBAG4N9O4Ag8+awb6By+wAY6iW4Am+AGMIIjGCcwNdfkuFzba+ESItX2Pnslpbvv9TABOAKYAVwAfLBd7AGMIb+jG9DnSB22CA798zuaEQTYrMQaASHMzJfuJcBJdCwJbbzPf3G0Rh4c2I+yBNbQlmIIz4JjX3YrwRjUhYYTA2rBLKRhNaAJimEloBlKYSmwpXZbAuWwAN4F2LOLQ/cUZMF8PJUkrWh31C8ZFgyZ8shyR8OKbRJWrKV10qJXyqqGBbspkCxbT/1WYT7Jg7U/tEbh4u++R2L2WUyWR27Yg/KyTZU7isWgWfTT3u5RUMOsUDEosVKoCORYLWQGnbLB1kA58L9hO7o5iwGnCig13ucf+VGO/7N3JRTCj5eVWRzltj6kLpcCmH8Hs3B2PNXqygAAAABJRU5ErkJggg=="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>Комментарии</th>
+          <td>
+            <div class="no">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="26" viewBox="0 0 27 26">
+                <image id="no.svg" width="27" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAYAAABGiCfwAAABM0lEQVRIia3W0Q2CMBAG4N9O4Ag8+awb6By+wAY6iW4Am+AGMIIjGCcwNdfkuFzba+ESItX2Pnslpbvv9TABOAKYAVwAfLBd7AGMIb+jG9DnSB22CA798zuaEQTYrMQaASHMzJfuJcBJdCwJbbzPf3G0Rh4c2I+yBNbQlmIIz4JjX3YrwRjUhYYTA2rBLKRhNaAJimEloBlKYSmwpXZbAuWwAN4F2LOLQ/cUZMF8PJUkrWh31C8ZFgyZ8shyR8OKbRJWrKV10qJXyqqGBbspkCxbT/1WYT7Jg7U/tEbh4u++R2L2WUyWR27Yg/KyTZU7isWgWfTT3u5RUMOsUDEosVKoCORYLWQGnbLB1kA58L9hO7o5iwGnCig13ucf+VGO/7N3JRTCj5eVWRzltj6kLpcCmH8Hs3B2PNXqygAAAABJRU5ErkJggg=="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="no">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="26" viewBox="0 0 27 26">
+                <image id="no.svg" width="27" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAYAAABGiCfwAAABM0lEQVRIia3W0Q2CMBAG4N9O4Ag8+awb6By+wAY6iW4Am+AGMIIjGCcwNdfkuFzba+ESItX2Pnslpbvv9TABOAKYAVwAfLBd7AGMIb+jG9DnSB22CA798zuaEQTYrMQaASHMzJfuJcBJdCwJbbzPf3G0Rh4c2I+yBNbQlmIIz4JjX3YrwRjUhYYTA2rBLKRhNaAJimEloBlKYSmwpXZbAuWwAN4F2LOLQ/cUZMF8PJUkrWh31C8ZFgyZ8shyR8OKbRJWrKV10qJXyqqGBbspkCxbT/1WYT7Jg7U/tEbh4u++R2L2WUyWR27Yg/KyTZU7isWgWfTT3u5RUMOsUDEosVKoCORYLWQGnbLB1kA58L9hO7o5iwGnCig13ucf+VGO/7N3JRTCj5eVWRzltj6kLpcCmH8Hs3B2PNXqygAAAABJRU5ErkJggg=="/>
+              </svg>
+            </div>
+          </td>
+          <td>
+            <div class="yes">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="21" viewBox="0 0 31 21">
+                <image id="yes.svg" width="31" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAVCAYAAAC+NTVfAAABBElEQVRIib3V3RGCMAwH8L8eAzCCbsAC3smdC7iBbuAGMIIb4Cby5KtugCM4ghcv8XohlIq0eeHT/JKW2sXmtkPCyAFcARQAHsuEcOHAn+ssMZw799oUnVvwBcA+dudD8JFOYnbuhWPiBwB3HxwLJ7hR984apph7zi34yF33gjpfAaj5mAwG4zQ3FYCOE0yJ068weNjdj0ISeH+kojGKHoWlc/0hWMlC4Rf9eYQWnzkvusMWMgIWXNKGEVj4d6n11iAnr2PBUOvcKqBSIyJb4t+wxqWAkhNKyBISeDsHbOEU7UABnbMXg8H1VHgIl8S6gHzk+Wy4D5gFHsNd6MnX1pRMCwBvqvNISJ1Kl1EAAAAASUVORK5CYII="/>
+              </svg>
+            </div>
+          </td>
+        </tr>
+
+      </table>
+      <section class="slider-switchers functions__slider-switchers">
+        <button class="slider-switchers__item"></button>
+        <button class="slider-switchers__item"></button>
+        <button class="slider-switchers__item"></button>
+      </section>
+    </section>
+
+    <section class="contact-us">
+      <p class="contact-us__headline">
+        Остались вопросы?<br>
+        Свяжитесь с нами!
+      </p>
+
+      <section class="contact-us__call">
+        <h3>Звоните:</h3>
+        <p class="contact-us__telephone">
+          +7 (812) 555-66-66
+        </p>
+      </section>
+
+      <section class="contact-us__write">
+        <h3>Пишите:</h3>
+        <p class="contact-us__email">
+          mail@htmlacademy.ru
+        </p>
+      </section>
+
+      <section class="contact-us__visit">
+        <h3>Приезжайте в гости:</h3>
+        <p class="contact-us__adres">
+          ул. Большая<br>
+          Конюшенная, 19/8
+        </p>
+      </section>
+
+    </section>
+
+    <section class="map">
+      <img src="img/MainContent/mobile-map.png" alt="">
+    </section>
+
+  </main>
 
 
 

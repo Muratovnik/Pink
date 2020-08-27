@@ -1,52 +1,40 @@
-@import "normalize.css";
-
+@import url(../css/normalize.css);
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .content-box-component {
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 body {
   margin: 0;
-
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 700;
-  color: #595959;
-}
+  color: #595959; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  margin: -1px;
-}
+  margin: -1px; }
 
 .container {
   width: 1200px;
-
   padding: 0 20px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .js-show {
-  display: block;
-}
+  display: block; }
 
 .hidden {
-  display: none;
-}
+  display: none; }

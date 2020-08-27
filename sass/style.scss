@@ -1,4 +1,8 @@
-@import "../css/normalize.css";
+@import "../css/normalize";
+
+
+/* Normalize.css end */
+
 
 *,
 *:before,
@@ -15,8 +19,6 @@ html {
 }
 
 body {
-  margin: 0;
-
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 30px;

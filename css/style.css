@@ -316,7 +316,7 @@ html {
   box-sizing: content-box; }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 700;
@@ -336,9 +336,6 @@ a {
   width: 1200px;
   padding: 0 20px;
   margin: 0 auto; }
-
-.js-show {
-  display: block; }
 
 .hidden {
   display: none; }

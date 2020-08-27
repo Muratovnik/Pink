@@ -6,17 +6,33 @@
 
 .main-header {
   width: 100%;
-  background-image: url(../img/Header/back-mobile.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.main-header__backcground{
+  position: absolute;
+  z-index: -1;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 400px;
+
+}
+
+.main-header__menu{
 }
 
 .main-header__top-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: rgba($color: #000000, $alpha: 0.3);
   padding: 22px 20px;
 
   &--active{
@@ -73,3 +89,28 @@
 
   padding: 17px 0;
 }
+
+
+.intro{
+  padding-top: 400px;
+}
+
+
+.download-app{
+  position: relative;
+  background-color: #1d2631;
+  &::after{
+    position: absolute;
+    content: "";
+
+    bottom: 100%;
+    left: 0;
+
+    width: 260px;
+    height: 280px;
+
+    background-color: red;
+  }
+}
+
+

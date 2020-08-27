@@ -1,20 +1,35 @@
+.main-header {
+  width: 100%;
+  background-image: url(../img/Header/back-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
 .main-header__top-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  background-color: transparent;
+  padding: 22px 20px; }
+  .main-header__top-menu--active {
+    border-bottom: 1px solid #000000;
+    background-color: #283645; }
 
 .pink-logo {
   height: 22px;
   width: 75px; }
   .pink-logo svg {
-    height: auto; }
+    width: 100%;
+    height: 100%; }
     .pink-logo svg image {
       width: 100%;
       height: 100%; }
 
-.main-header {
-  width: 100%;
-  background-color: #283645; }
+.main-header-burger {
+  background-color: transparent;
+  border: none; }
+  .main-header-burger:focus {
+    outline: none; }
 
 .main-navigation {
   background-color: #283645;
@@ -22,8 +37,7 @@
 
 .main-navigation__list {
   margin: 0;
-  padding: 0;
-  display: none; }
+  padding: 0; }
 
 .main-navigation__link {
   display: flex;

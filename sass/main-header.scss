@@ -1,22 +1,3 @@
-.main-header__top-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pink-logo {
-  height: 22px;
-  width: 75px;
-
-  svg {
-    height: auto;
-
-    image {
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
 
 @mixin correct-list {
   margin: 0;
@@ -25,7 +6,46 @@
 
 .main-header {
   width: 100%;
-  background-color: #283645;
+  background-image: url(../img/Header/back-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.main-header__top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 22px 20px;
+
+  &--active{
+    border-bottom: 1px solid #000000;
+    background-color: #283645;
+  }
+}
+
+.pink-logo {
+  height: 22px;
+  width: 75px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.main-header-burger{
+  background-color: transparent;
+  border: none;
+  &:focus{
+    outline: none;
+  }
 }
 
 .main-navigation {
@@ -35,7 +55,6 @@
 
 .main-navigation__list {
   @include correct-list;
-  display: none;
 }
 
 .main-navigation__link {

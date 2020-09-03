@@ -8,10 +8,37 @@
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 120px; }
   .advantages__intro span {
     display: block;
     text-align: center;
     margin-bottom: 35px; }
     .advantages__intro span:last-child {
       margin-bottom: 0; }
+
+.advantages__list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.advantages__item {
+  text-align: center;
+  margin-bottom: 35px; }
+  .advantages__item:last-child {
+    margin-bottom: 0; }
+
+.advantages__text-headline {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px; }
+
+.advantages__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+  font-weight: 500; }

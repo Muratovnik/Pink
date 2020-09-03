@@ -1,3 +1,9 @@
+@mixin correct-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .advantages{
   display: flex;
   flex-direction: column;
@@ -10,7 +16,11 @@
   line-height: 30px;
   font-weight: 400;
 
+
   margin: 0;
+  margin-bottom: 120px;
+
+
   & span {
     display: block;
     text-align: center;
@@ -19,4 +29,40 @@
       margin-bottom: 0;
     }
   }
+}
+
+
+.advantages__list{
+  @include correct-list;
+}
+
+.advantages__item{
+  text-align: center;
+
+  margin-bottom: 35px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.advantages__text-headline{
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+
+  margin-bottom: 15px;
+}
+
+.advantages__text{
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+  font-weight: 500;
+
 }

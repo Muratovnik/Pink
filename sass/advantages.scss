@@ -5,9 +5,8 @@
 }
 
 .advantages{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  position: relative;
 }
 
 .advantages__intro{
@@ -34,6 +33,8 @@
 
 .advantages__list{
   @include correct-list;
+
+  margin-bottom: 40px;
 }
 
 .advantages__item{
@@ -65,4 +66,18 @@
   color: #283645;
   font-weight: 500;
 
+}
+
+.advantages__prewiev{
+  position: relative;
+  display: block;
+  min-height: 320px;
+}
+
+.advantages__phone-smile{
+  position: absolute;
+  bottom: -40px;
+  left: 58.5px;
+
+  z-index: -1;
 }

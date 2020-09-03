@@ -1,7 +1,5 @@
 .advantages {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  position: relative; }
 
 .advantages__intro {
   color: #283645;
@@ -20,7 +18,8 @@
 .advantages__list {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 40px; }
 
 .advantages__item {
   text-align: center;
@@ -42,3 +41,14 @@
   line-height: 24px;
   color: #283645;
   font-weight: 500; }
+
+.advantages__prewiev {
+  position: relative;
+  display: block;
+  min-height: 320px; }
+
+.advantages__phone-smile {
+  position: absolute;
+  bottom: -40px;
+  left: 58.5px;
+  z-index: -1; }

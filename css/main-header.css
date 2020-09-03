@@ -4,7 +4,8 @@
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 45px; }
 
 .main-header__backcground {
   overflow: hidden;
